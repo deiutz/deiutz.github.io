@@ -11,13 +11,34 @@ td {vertical-align:top;font-size:50%;padding:5px;}
 #main-table .job-experience  h2{font-size:100%;margin:0;padding:0}
 #main-table .job-experience {margin: 0 auto;margin-bottom:10px;clear:both;}
 .job-wrapper { border:1px solid #cccccc;padding:10px;float:left;width:85%;margin-bottom:20px}
-.bubble {display:block;float:left;margin-right:-6px;margin-top:15px;background-color:#ffffff;border-left:1px solid #cccccc;border-top:1px solid #cccccc;    
+.bubble {
+    display:block;
+    float:left;
+    margin-right:-6px;
+    margin-top:15px;
+    background-color:#ffffff;
+    border-left:1px solid #cccccc;
+    border-top:1px solid #cccccc;    
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     width:9px;
-    height:9px}
+    height:9px
+    }
+.dot {
+    display:block;
+    float:right;
+    margin-right:-46px;
+    background-color:#ffffff;
+    width:9px;
+    font-size:x-large;
+    height:5px;
+    margin-top:-10px;
+    padding-top:0;
+    line-height:0px;
+    
+    }
 .current-title {font-size:xx-large;padding-left:50px}
 #column-separator {background:#cccccc;width:3px;padding:0px; margin:0px;}
