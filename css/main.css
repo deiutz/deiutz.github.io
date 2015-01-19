@@ -30,15 +30,17 @@ td {vertical-align:top;font-size:50%;padding:5px;}
 .dot {
     display:block;
     float:right;
-    margin-right:-46px;
-    background-color:#ffffff;
+    margin-right:-47px;
+    background-color:#000000;
     width:9px;
     font-size:x-large;
-    height:5px;
-    margin-top:-10px;
+    height:7px;
+    margin-top:-12px;
     padding-top:0;
     line-height:0px;
-    
+    border-radius: 50%;
+    width: 7px;
+    height: 7px; 
     }
 .current-title {font-size:xx-large;padding-left:50px}
 #column-separator {background:#cccccc;width:3px;padding:0px; margin:0px;}
